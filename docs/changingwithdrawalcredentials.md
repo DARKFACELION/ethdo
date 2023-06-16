@@ -107,7 +107,7 @@ Two pieces of information are required for carrying out this process online: the
 On your _online_ computer run the following:
 
 ```
-ethdo validator credentials set --mnemonic="abandon abandon abandon … art" --withdrawal-address=0x0123…cdef
+ethdo validator credentials set --mnemonic="abandon abandon abandon … art" --withdrawal-address=0x627306090abaB3A6e1400e9345bC60c78a8BEf57
 ```
 
 Replacing the `mnemonic` and `withdrawal-address` values with your own values.  This command will:
@@ -135,7 +135,7 @@ This command will:
 The `offline-preparation.json` file must be copied to your _offline_ computer.  Once this has been done, on your _offline_ computer run the following:
 
 ```
-ethdo validator credentials set --offline --mnemonic="abandon abandon abandon … art" --withdrawal-address=0x0123…cdef
+ethdo validator credentials set --offline --mnemonic="abandon abandon abandon … art" --withdrawal-address=0x627306090abaB3A6e1400e9345bC60c78a8BEf57
 ```
 
 Replacing the `mnemonic` and `withdrawal-address` values with your own values.  This command will:
